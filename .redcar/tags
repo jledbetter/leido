@@ -1,9 +1,10 @@
-1299038498
+1299040932
 Application	/home/jessica/vagrant/shared/leido/config/application.rb	  class Application 
 ApplicationController	/home/jessica/vagrant/shared/leido/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/jessica/vagrant/shared/leido/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/home/jessica/vagrant/shared/leido/test/performance/browsing_test.rb	class BrowsingTest 
 CreateLinks	/home/jessica/vagrant/shared/leido/db/migrate/20110228205847_create_links.rb	class CreateLinks 
+DeviseCreateUsers	/home/jessica/vagrant/shared/leido/db/migrate/20110302043240_devise_create_users.rb	class DeviseCreateUsers 
 HomeController	/home/jessica/vagrant/shared/leido/app/controllers/home_controller.rb	class HomeController 
 HomeControllerTest	/home/jessica/vagrant/shared/leido/test/functional/home_controller_test.rb	class HomeControllerTest 
 HomeHelper	/home/jessica/vagrant/shared/leido/app/helpers/home_helper.rb	module HomeHelper
@@ -18,6 +19,8 @@ LinksHelperTest	/home/jessica/vagrant/shared/leido/test/unit/helpers/links_helpe
 Str	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function Str(key, holder, stack)
 TestCase	/home/jessica/vagrant/shared/leido/test/test_helper.rb	class ActiveSupport::TestCase
 Type	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function Type(o)
+User	/home/jessica/vagrant/shared/leido/app/models/user.rb	class User 
+UserTest	/home/jessica/vagrant/shared/leido/test/unit/user_test.rb	class UserTest 
 abs	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function abs()
 absolutize	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function absolutize(element)
 addMethods	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function addMethods(source)
@@ -57,6 +60,7 @@ dirCheck	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	func
 dirNodeCheck	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dispatch	/home/jessica/vagrant/shared/leido/public/javascripts/effects.js	function dispatch(effect, eventName)
 down	/home/jessica/vagrant/shared/leido/db/migrate/20110228205847_create_links.rb	  def self.down
+down	/home/jessica/vagrant/shared/leido/db/migrate/20110302043240_devise_create_users.rb	  def self.down
 each	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function each(iterator)
 each	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -205,6 +209,7 @@ unfilterJSON	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	
 uniq	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function uniq(sorted)
 unset	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function unset(key)
 up	/home/jessica/vagrant/shared/leido/db/migrate/20110228205847_create_links.rb	  def self.up
+up	/home/jessica/vagrant/shared/leido/db/migrate/20110302043240_devise_create_users.rb	  def self.up
 update	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def update
 update	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function update(array, args)
 update	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function update(element, content)

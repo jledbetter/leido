@@ -1,4 +1,6 @@
 Leido::Application.routes.draw do
+  devise_for :users
+
   resources :links
 
   get "home/index"
