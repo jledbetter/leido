@@ -3,8 +3,12 @@ Leido::Application.routes.draw do
 
   resources :links
 
-  get "home/index"
+  get "links/index"
 
+  # You can have the root of your site routed with "root"
+  # just remember to delete public/index.html.
+  root :to => "links#index"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -51,10 +55,6 @@ Leido::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-
-  # You can have the root of your site routed with "root"
-  # just remember to delete public/index.html.
-  root :to => "home#index"
 
   # See how all your routes lay out with "rake routes"
 
