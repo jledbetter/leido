@@ -1,4 +1,4 @@
-1299176735
+1299177447
 ApplicationController	/home/jessica/vagrant/shared/leido/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/jessica/vagrant/shared/leido/app/helpers/application_helper.rb	module ApplicationHelper
 HomeController	/home/jessica/vagrant/shared/leido/app/controllers/home_controller.rb	class HomeController 
@@ -12,6 +12,7 @@ destroy	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	 
 edit	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def edit
 index	/home/jessica/vagrant/shared/leido/app/controllers/home_controller.rb	  def index
 index	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def index
+login	/home/jessica/vagrant/shared/leido/app/models/user.rb	  attr_accessor :login
 new	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def new
 show	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def show
 update	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def update

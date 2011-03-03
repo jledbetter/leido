@@ -1,4 +1,5 @@
-1299129368
+1299179490
+AddUsernameToUsers	/home/jessica/vagrant/shared/leido/db/migrate/20110303182920_add_username_to_users.rb	class AddUsernameToUsers 
 Application	/home/jessica/vagrant/shared/leido/config/application.rb	  class Application 
 ApplicationController	/home/jessica/vagrant/shared/leido/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/jessica/vagrant/shared/leido/app/helpers/application_helper.rb	module ApplicationHelper
@@ -61,6 +62,7 @@ dirNodeCheck	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	
 dispatch	/home/jessica/vagrant/shared/leido/public/javascripts/effects.js	function dispatch(effect, eventName)
 down	/home/jessica/vagrant/shared/leido/db/migrate/20110228205847_create_links.rb	  def self.down
 down	/home/jessica/vagrant/shared/leido/db/migrate/20110302043240_devise_create_users.rb	  def self.down
+down	/home/jessica/vagrant/shared/leido/db/migrate/20110303182920_add_username_to_users.rb	  def self.down
 each	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function each(iterator)
 each	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -81,6 +83,7 @@ find	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function
 findAll	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function findAll(iterator, context)
 findDOMClass	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function findDOMClass(tagName)
 findElement	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function findElement(event, expression)
+find_for_database_authentication	/home/jessica/vagrant/shared/leido/app/models/user.rb	  def self.find_for_database_authentication(conditions)
 fire	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function fire(element, eventName, memo, bubble)
 fireContentLoadedEvent	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function fireContentLoadedEvent()
 first	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function first()
@@ -138,6 +141,7 @@ keys	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function
 klass	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function klass()
 last	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function last()
 lastIndexOf	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function lastIndexOf(item, i)
+login	/home/jessica/vagrant/shared/leido/app/models/user.rb	  attr_accessor :login
 match	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function match()
 match	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function match(element, selector)
 max	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function max(iterator, context)
@@ -210,6 +214,7 @@ uniq	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function
 unset	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function unset(key)
 up	/home/jessica/vagrant/shared/leido/db/migrate/20110228205847_create_links.rb	  def self.up
 up	/home/jessica/vagrant/shared/leido/db/migrate/20110302043240_devise_create_users.rb	  def self.up
+up	/home/jessica/vagrant/shared/leido/db/migrate/20110303182920_add_username_to_users.rb	  def self.up
 update	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def update
 update	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function update(array, args)
 update	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function update(element, content)
