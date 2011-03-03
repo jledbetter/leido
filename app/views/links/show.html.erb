@@ -15,6 +15,10 @@
   <%= @link.description %>
 </p>
 
+<p>
+  <b>Submitter:</b>
+  <%= @link.user.email  %>
+</p>
 
 <%= link_to 'Edit', edit_link_path(@link) %> |
 <%= link_to 'Back', links_path %>

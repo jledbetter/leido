@@ -1,4 +1,7 @@
 class LinksController < ApplicationController
+  
+  before_filter :authenticate_user!, :except => [:index, :show]
+  
   # GET /links
   # GET /links.xml
   def index
@@ -41,6 +44,7 @@ class LinksController < ApplicationController
   # POST /links.xml
   def create
     @link = Link.new(params[:link])
+    @link.user = current_user
 
     respond_to do |format|
       if @link.save
@@ -79,5 +83,6 @@ class LinksController < ApplicationController
       format.html { redirect_to(links_url) }
       format.xml  { head :ok }
     end
-  end
+  end  
+  
 end
