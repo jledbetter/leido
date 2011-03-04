@@ -1,4 +1,4 @@
-1299179490
+1299255619
 AddUsernameToUsers	/home/jessica/vagrant/shared/leido/db/migrate/20110303182920_add_username_to_users.rb	class AddUsernameToUsers 
 Application	/home/jessica/vagrant/shared/leido/config/application.rb	  class Application 
 ApplicationController	/home/jessica/vagrant/shared/leido/app/controllers/application_controller.rb	class ApplicationController 
