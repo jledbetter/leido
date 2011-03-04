@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_many :links
+  
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable, :lockable and :timeoutable
   devise :database_authenticatable, :registerable,
@@ -9,6 +11,9 @@ class User < ActiveRecord::Base
   
   # To allow for authenticating via username or email
   attr_accessor :login
+  
+  # For vote_fu
+  acts_as_voter
   
   protected
   def self.find_for_database_authentication(conditions)

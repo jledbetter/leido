@@ -1,5 +1,10 @@
 <p id="notice"><%= notice %></p>
 
+<div id="link_<%= @link.id %>">
+	<div id="votes_<%= @link.id %>">
+		<%= render :partial => "link_vote", :locals => {:link => @link} %>
+	</div>
+  
 <p>
   <b>Url:</b>
   <%= @link.url %>

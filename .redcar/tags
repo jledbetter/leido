@@ -1,15 +1,25 @@
-1299255619
+1299260581
+Acts	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	  module Acts 
+Acts	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	  module Acts 
 AddUsernameToUsers	/home/jessica/vagrant/shared/leido/db/migrate/20110303182920_add_username_to_users.rb	class AddUsernameToUsers 
 Application	/home/jessica/vagrant/shared/leido/config/application.rb	  class Application 
 ApplicationController	/home/jessica/vagrant/shared/leido/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/jessica/vagrant/shared/leido/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/home/jessica/vagrant/shared/leido/test/performance/browsing_test.rb	class BrowsingTest 
+ClassMethods	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	      module ClassMethods
+ClassMethods	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	      module ClassMethods
+ClassMethods	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	      module ClassMethods
 CreateLinks	/home/jessica/vagrant/shared/leido/db/migrate/20110228205847_create_links.rb	class CreateLinks 
 DeviseCreateUsers	/home/jessica/vagrant/shared/leido/db/migrate/20110302043240_devise_create_users.rb	class DeviseCreateUsers 
 HomeController	/home/jessica/vagrant/shared/leido/app/controllers/home_controller.rb	class HomeController 
 HomeControllerTest	/home/jessica/vagrant/shared/leido/test/functional/home_controller_test.rb	class HomeControllerTest 
 HomeHelper	/home/jessica/vagrant/shared/leido/app/helpers/home_helper.rb	module HomeHelper
 HomeHelperTest	/home/jessica/vagrant/shared/leido/test/unit/helpers/home_helper_test.rb	class HomeHelperTest 
+InstanceMethods	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	      module InstanceMethods
+InstanceMethods	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	      module InstanceMethods
+InstanceMethods	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	      module InstanceMethods
+Juixe	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	module Juixe
+Karma	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	    module Karma 
 Leido	/home/jessica/vagrant/shared/leido/config/application.rb	module Leido
 Link	/home/jessica/vagrant/shared/leido/app/models/link.rb	class Link 
 LinkTest	/home/jessica/vagrant/shared/leido/test/unit/link_test.rb	class LinkTest 
@@ -17,13 +27,35 @@ LinksController	/home/jessica/vagrant/shared/leido/app/controllers/links_control
 LinksControllerTest	/home/jessica/vagrant/shared/leido/test/functional/links_controller_test.rb	class LinksControllerTest 
 LinksHelper	/home/jessica/vagrant/shared/leido/app/helpers/links_helper.rb	module LinksHelper
 LinksHelperTest	/home/jessica/vagrant/shared/leido/test/unit/helpers/links_helper_test.rb	class LinksHelperTest 
+PeteOnRails	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	module PeteOnRails
+PeteOnRails	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	module PeteOnRails
+SingletonMethods	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	      module SingletonMethods
+SingletonMethods	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	      module SingletonMethods
+SingletonMethods	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	      module SingletonMethods
 Str	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function Str(key, holder, stack)
 TestCase	/home/jessica/vagrant/shared/leido/test/test_helper.rb	class ActiveSupport::TestCase
 Type	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function Type(o)
 User	/home/jessica/vagrant/shared/leido/app/models/user.rb	class User 
 UserTest	/home/jessica/vagrant/shared/leido/test/unit/user_test.rb	class UserTest 
+UsersController	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	class UsersController 
+Vote	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/models/vote.rb	class Vote 
+VoteFu	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	  module VoteFu 
+VoteFuGenerator	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/generators/vote_fu_generator.rb	class VoteFuGenerator 
+VoteFuMigration	/home/jessica/vagrant/shared/leido/db/migrate/20110304164428_vote_fu_migration.rb	class VoteFuMigration 
+VoteFuMigration	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/generators/templates/migration.rb	class VoteFuMigration 
+VoteFuTest	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/test/vote_fu_test.rb	class VoteFuTest 
+Voteable	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteable.rb	class Voteable 
+Voteable	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	    module Voteable 
+VoteablesController	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	class VoteablesController 
+Voter	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	    module Voter 
+VotesController	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	class VotesController 
+VotesController	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	class VotesController 
+VotesController	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/controllers/votes_controller.rb	class VotesController 
 abs	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function abs()
 absolutize	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function absolutize(element)
+activate	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	  def activate
+acts_as_voteable	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	        def acts_as_voteable
+acts_as_voter	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	        def acts_as_voter
 addMethods	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function addMethods(source)
 addText	/home/jessica/vagrant/shared/leido/public/javascripts/controls.js	function addText(mode, condition)
 all	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function all(iterator, context)
@@ -46,7 +78,13 @@ compact	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	funct
 concat	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function concat()
 copy	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
 create	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def create
+create	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def create
 create	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function create()
+create	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	  def create
+create	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def create
+create	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def create
+create	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/controllers/votes_controller.rb	    def create
+create_migration_file	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/generators/vote_fu_generator.rb	  def create_migration_file 
 cssNameFor	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function cssNameFor(key)
 cumulativeOffset	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function cumulativeOffset(element)
 cumulativeScrollOffset	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function cumulativeScrollOffset(element)
@@ -56,6 +94,11 @@ defer	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	functio
 define	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function define(D)
 delay	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function delay(timeout)
 destroy	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def destroy
+destroy	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def destroy
+destroy	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	  def destroy
+destroy	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def destroy
+destroy	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def destroy
+destroy	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/controllers/votes_controller.rb	    def destroy
 detect	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function detect(iterator, context)
 dirCheck	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function dirCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
 dirNodeCheck	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function dirNodeCheck( dir, cur, doneName, checkSet, nodeCheck, isXML )
@@ -63,10 +106,16 @@ dispatch	/home/jessica/vagrant/shared/leido/public/javascripts/effects.js	functi
 down	/home/jessica/vagrant/shared/leido/db/migrate/20110228205847_create_links.rb	  def self.down
 down	/home/jessica/vagrant/shared/leido/db/migrate/20110302043240_devise_create_users.rb	  def self.down
 down	/home/jessica/vagrant/shared/leido/db/migrate/20110303182920_add_username_to_users.rb	  def self.down
+down	/home/jessica/vagrant/shared/leido/db/migrate/20110304164428_vote_fu_migration.rb	  def self.down
+down	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/generators/templates/migration.rb	  def self.down
 each	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function each(iterator)
 each	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
 edit	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def edit
+edit	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def edit
+edit	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def edit 
+edit	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def edit
+edit	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/controllers/votes_controller.rb	    def edit
 element	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function element(event)
 empty	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function empty()
 endsWith	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function endsWith(pattern)
@@ -84,6 +133,11 @@ findAll	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	funct
 findDOMClass	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function findDOMClass(tagName)
 findElement	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function findElement(event, expression)
 find_for_database_authentication	/home/jessica/vagrant/shared/leido/app/models/user.rb	  def self.find_for_database_authentication(conditions)
+find_most_karmic	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	        def find_most_karmic
+find_user	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	  def find_user
+find_user	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def find_user 
+find_votes_for_my_scope	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def find_votes_for_my_scope
+find_votes_for_my_scope	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def find_votes_for_my_scope
 fire	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function fire(element, eventName, memo, bubble)
 fireContentLoadedEvent	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function fireContentLoadedEvent()
 first	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function first()
@@ -99,13 +153,21 @@ grep	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function
 gsub	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function gsub(pattern, replacement)
 handleMethod	/home/jessica/vagrant/shared/leido/public/javascripts/rails.js	function handleMethod(element)
 handleRemote	/home/jessica/vagrant/shared/leido/public/javascripts/rails.js	function handleRemote(element)
+has_karma	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	        def has_karma(voteable_type)
 inGroupsOf	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function inGroupsOf(number, fillWith)
 include	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function include(object)
 include	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function include(pattern)
 include	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function include(value)
+included	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	      def self.included(base)
+included	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	      def self.included(base)
+included	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	      def self.included(base)
 index	/home/jessica/vagrant/shared/leido/app/controllers/home_controller.rb	  def index
 index	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def index
+index	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def index
 index	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function index(value)
+index	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def index
+index	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def index
+index	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/controllers/votes_controller.rb	  def index
 indexOf	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function indexOf(item, i)
 initialize	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function initialize(object)
 initialize	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function initialize(start, end, exclusive)
@@ -136,6 +198,9 @@ isRightClick	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	
 isString	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function isString(object)
 isUndefined	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function isUndefined(object)
 iter	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function iter(name)
+karma	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	        def karma(options = {})
+karma_voteable	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	            def karma_voteable
+karmatic_objects	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	          attr_accessor :karmatic_objects
 keys	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function keys()
 keys	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function keys(object)
 klass	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function klass()
@@ -150,9 +215,23 @@ merge	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	functio
 merge	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function merge(object)
 methodize	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function methodize()
 min	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function min(iterator, context)
+must_own_vote	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def must_own_vote
+must_own_vote	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def must_own_vote
+must_own_voteable	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def must_own_voteable
 new	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def new
+new	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def new
+new	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	  def new
+new	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def new
+new	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def new
+new	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/controllers/votes_controller.rb	    def new
+next_migration_number	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/generators/vote_fu_generator.rb	  def self.next_migration_number(dirname)
 observe	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function observe(element, eventName, handler)
 on	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function on(element, eventName, selector, callback)
+options_for_karma	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/has_karma.rb	        def options_for_karma 
+options_for_tally	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	        def options_for_tally 
+ownership_violation	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def ownership_violation
+ownership_violation	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def ownership_violation
+ownership_violation	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def ownership_violation
 parseColor	/home/jessica/vagrant/shared/leido/public/javascripts/effects.js	function parseColor(color)
 parseJSON	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function parseJSON()
 partition	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function partition(iterator, context)
@@ -163,6 +242,7 @@ pointerY	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	func
 pollDoScroll	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function pollDoScroll()
 positionedOffset	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function positionedOffset(element)
 prepareReplacement	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function prepareReplacement(replacement)
+purge	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	  def purge
 purgeElement	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function purgeElement(element)
 reject	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function reject(iterator, context)
 relativize	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function relativize(element)
@@ -173,9 +253,15 @@ select	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	functi
 select	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function select(selector, scope)
 set	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function set(key, value)
 show	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def show
+show	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def show
+show	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	  def show
+show	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def show
+show	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def show
+show	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/controllers/votes_controller.rb	    def show
 size	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function size()
 size	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function size()
 sortBy	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function sortBy(iterator, context)
+source_root	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/generators/vote_fu_generator.rb	  def self.source_root
 startsWith	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function startsWith(pattern)
 stop	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function stop(event)
 stopObserving	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function stopObserving(element, eventName, handler)
@@ -188,7 +274,10 @@ sub	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function 
 subclass	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function subclass()
 succ	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function succ()
 succ	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function succ()
+suspend	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	  def suspend
+tally	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	        def tally(options = {})
 test_homepage	/home/jessica/vagrant/shared/leido/test/performance/browsing_test.rb	  def test_homepage
+test_this_plugin	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/test/vote_fu_test.rb	  def test_this_plugin
 times	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function times(count)
 times	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function times(iterator, context)
 toArray	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function toArray()
@@ -212,16 +301,35 @@ unescapeHTML	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	
 unfilterJSON	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function unfilterJSON(filter)
 uniq	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function uniq(sorted)
 unset	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function unset(key)
+unsuspend	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/users_controller.rb	  def unsuspend
 up	/home/jessica/vagrant/shared/leido/db/migrate/20110228205847_create_links.rb	  def self.up
 up	/home/jessica/vagrant/shared/leido/db/migrate/20110302043240_devise_create_users.rb	  def self.up
 up	/home/jessica/vagrant/shared/leido/db/migrate/20110303182920_add_username_to_users.rb	  def self.up
+up	/home/jessica/vagrant/shared/leido/db/migrate/20110304164428_vote_fu_migration.rb	  def self.up
+up	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/generators/templates/migration.rb	  def self.up
 update	/home/jessica/vagrant/shared/leido/app/controllers/links_controller.rb	  def update
+update	/home/jessica/vagrant/shared/leido/app/controllers/votes_controller.rb	  def update
 update	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function update(array, args)
 update	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function update(element, content)
 update	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function update(object)
+update	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/voteables_controller.rb	  def update
+update	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/examples/votes_controller.rb	  def update
+update	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/controllers/votes_controller.rb	    def update
 values	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function values()
 values	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function values(object)
 viewportOffset	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function viewportOffset(forElement)
+vote	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	        def vote(voteable, vote)
+vote_against	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	        def vote_against(voteable)
+vote_count	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	        def vote_count(for_or_against = "all")
+vote_for	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	        def vote_for(voteable)
+voted_against?	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	         def voted_against?(voteable)
+voted_by?	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	        def voted_by?(voter)
+voted_for?	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	        def voted_for?(voteable)
+voted_on?	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voter.rb	         def voted_on?(voteable)
+voters_who_voted	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	        def voters_who_voted
+votes_against	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	        def votes_against
+votes_count	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	        def votes_count
+votes_for	/home/jessica/vagrant/shared/leido/vendor/plugins/vote_fu_rails_3/lib/acts_as_voteable.rb	        def votes_for
 without	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function without()
 wrap	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function wrap(wrapper)
 zip	/home/jessica/vagrant/shared/leido/public/javascripts/prototype.js	function zip()
